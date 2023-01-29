@@ -7,14 +7,14 @@ export default function LittleLemonFooter() {
             style={{
                 backgroundColor: '#F4CE14',
                 alignItems: 'center',
-                marginBottom: 10
+                marginBottom: 5,
             }}>
             <Text
                 style={{
                     fontSize: 13,
                     color: 'black',
                 }}>
-                All rights reserved by Little Lemon, 2022
+                All rights reserved by Little Lemon, 2022{''}
             </Text>
         </View>
     );

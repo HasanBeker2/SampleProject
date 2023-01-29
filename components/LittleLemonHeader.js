@@ -11,12 +11,13 @@ export default function LittleLemonHeader() {
             }}>
             <Text
                 style={{
-                    padding: 50,
-                    fontSize: 20,
+                    padding: 40,
+                    fontSize: 40,
                     color: 'black',
-                    
+                    fontWeight:'bold'
+
                 }}>
-                Welcome to Little Lemon
+                Little Lemon
             </Text>
         </View>
     );
