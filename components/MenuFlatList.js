@@ -44,7 +44,7 @@ const Item = ({ name, price }) => (
     </View>
 );
 
-const MenuItemsPrice = () => {
+const MenuFlatList = () => {
 
     const renderItem = ({ item }) => <Item name={item.name} price={item.price} />
 
@@ -96,4 +96,4 @@ const menuStyles = StyleSheet.create({
     },
 });
 
-export default MenuItemsPrice;
+export default MenuFlatList;
