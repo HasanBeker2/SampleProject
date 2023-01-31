@@ -12,6 +12,8 @@ import LoginScreen from './components/LoginScreen';
 import MenuPressable from './components/MenuPressable';
 import MenuPressableButtonEffect from './components/MenuPressableButtonEffect';
 import LoginScreenButton from './components/LoginScreenButton';
+import WelcomeImage from './components/WelcomeImage';
+import WelcomeLogo from './components/WelcomeLogo';
 
 export default function App() {
   return (
@@ -26,7 +28,9 @@ export default function App() {
         {/* <LoginScreen/> */}
         {/* <MenuPressable/> */}
         {/* <MenuPressableButtonEffect/> */}
-        <LoginScreenButton />
+        {/* <LoginScreenButton /> */}
+        {/* <WelcomeImage/> */}
+        <WelcomeLogo/>
 
       </View>
 
