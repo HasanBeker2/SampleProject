@@ -7,6 +7,11 @@ import WelcomeScreen from './components/WelcomeScreen';
 import MenuItems from './components/MenuItems';
 import MenuFlatList from './components/MenuFlatList';
 import MenuSectionList from './components/MenuSectionList';
+import FeedbackForm from './components/FeedbackForm';
+import LoginScreen from './components/LoginScreen';
+import MenuPressable from './components/MenuPressable';
+import MenuPressableButtonEffect from './components/MenuPressableButtonEffect';
+import LoginScreenButton from './components/LoginScreenButton';
 
 export default function App() {
   return (
@@ -16,7 +21,13 @@ export default function App() {
         {/* <WelcomeScreen /> */}
         {/* <MenuItems/> */}
         {/* <MenuFlatList/> */}
-        <MenuSectionList/>
+        {/* <MenuSectionList/> */}
+        {/* <FeedbackForm/> */}
+        {/* <LoginScreen/> */}
+        {/* <MenuPressable/> */}
+        {/* <MenuPressableButtonEffect/> */}
+        <LoginScreenButton />
+
       </View>
 
       <View style={styles.footerContainer}>
