@@ -14,12 +14,13 @@ import MenuPressableButtonEffect from './components/MenuPressableButtonEffect';
 import LoginScreenButton from './components/LoginScreenButton';
 import WelcomeImage from './components/WelcomeImage';
 import WelcomeLogo from './components/WelcomeLogo';
+import BackgroundImage from './components/BackgroundImage';
 
 export default function App() {
   return (
     <>
       <View style={styles.headerContainer}>
-        <LittleLemonHeader />
+        {/* <LittleLemonHeader /> */}
         {/* <WelcomeScreen /> */}
         {/* <MenuItems/> */}
         {/* <MenuFlatList/> */}
@@ -30,7 +31,8 @@ export default function App() {
         {/* <MenuPressableButtonEffect/> */}
         {/* <LoginScreenButton /> */}
         {/* <WelcomeImage/> */}
-        <WelcomeLogo/>
+        {/* <WelcomeLogo/> */}
+        <BackgroundImage/>
 
       </View>
 
