@@ -18,6 +18,7 @@ import BackgroundImage from './components/BackgroundImage';
 import ColorScheme from './components/ColorScheme';
 import DarkModeGPT from './components/DarkModeGPT';
 import DarkModeGPT2 from './components/DarkModeGPT2';
+import WindowsDimensions from './components/WindowDimensions';
 
 export default function App() {
   return (
@@ -38,7 +39,8 @@ export default function App() {
         {/* <BackgroundImage/> */}
         {/* <ColorScheme/> */}
         {/* <DarkModeGPT/> */}
-        <DarkModeGPT2/>
+        {/* <DarkModeGPT2/> */}
+        <WindowsDimensions/>
 
       </View>
 
