@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
 import LittleLemonHeader from './components/LittleLemonHeader';
 import LittleLemonFooter from './components/LittleLemonFooter';
@@ -22,6 +23,7 @@ import WindowsDimensions from './components/WindowDimensions';
 
 export default function App() {
   return (
+    <NavigationContainer>
     <>
       <View style={styles.headerContainer}>
         {/* <LittleLemonHeader /> */}
@@ -48,6 +50,7 @@ export default function App() {
         <LittleLemonFooter />
       </View>
     </>
+    </NavigationContainer>
   );
 }
 
