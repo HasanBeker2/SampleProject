@@ -15,6 +15,9 @@ import LoginScreenButton from './components/LoginScreenButton';
 import WelcomeImage from './components/WelcomeImage';
 import WelcomeLogo from './components/WelcomeLogo';
 import BackgroundImage from './components/BackgroundImage';
+import ColorScheme from './components/ColorScheme';
+import DarkModeGPT from './components/DarkModeGPT';
+import DarkModeGPT2 from './components/DarkModeGPT2';
 
 export default function App() {
   return (
@@ -32,7 +35,10 @@ export default function App() {
         {/* <LoginScreenButton /> */}
         {/* <WelcomeImage/> */}
         {/* <WelcomeLogo/> */}
-        <BackgroundImage/>
+        {/* <BackgroundImage/> */}
+        {/* <ColorScheme/> */}
+        {/* <DarkModeGPT/> */}
+        <DarkModeGPT2/>
 
       </View>
 
